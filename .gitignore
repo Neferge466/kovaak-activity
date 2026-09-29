@@ -8,3 +8,4 @@ public/data/
 data/**/*.tmp
 .idea/
 *.iml
+config/local-sync.json

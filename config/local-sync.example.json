@@ -1,0 +1,10 @@
+{
+  "playerId": "main",
+  "statsFolder": "C:/Program Files (x86)/Steam/steamapps/common/FPSAimTrainer/FPSAimTrainer/stats",
+  "intervalSeconds": 600,
+  "github": {
+    "enabled": false,
+    "repository": "YOUR_GITHUB_USERNAME/kovaak-activity",
+    "branch": "main"
+  }
+}

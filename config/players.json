@@ -1,4 +1,8 @@
 {
+  "tracking": {
+    "scoreHistory": true,
+    "concurrency": 3
+  },
   "players": [
     {
       "id": "main",

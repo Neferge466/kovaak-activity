@@ -2,10 +2,9 @@ import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { stripTypeScriptTypes } from 'node:module';
 
-// Run calendar checks against the actual TS utility module without a test framework.
 const source = await readFile(new URL('../src/utils/activity.ts', import.meta.url), 'utf8');
 const url = `data:text/javascript;base64,${Buffer.from(stripTypeScriptTypes(source)).toString('base64')}`;
-const { level, summarize, weeklyData, calendarDates } = await import(url);
+const { level, summarize, weeklyData, weeklyRanges, calendarDates } = await import(url);
 const mockSource = await readFile(new URL('../src/data/mock.ts', import.meta.url), 'utf8');
 const mockJs = stripTypeScriptTypes(mockSource).replace("'../utils/activity'", JSON.stringify(url));
 const { mockActivity } = await import(`data:text/javascript;base64,${Buffer.from(mockJs).toString('base64')}`);
@@ -16,6 +15,12 @@ for (const [value, expected] of [[10, 1], [11, 2], [25, 2], [26, 3], [50, 3], [5
 assert.deepEqual(summarize([]), { active: 0, streak: 0, minutes: 0, runs: 0 });
 const example = [{ date: '2026-01-04', runs: 1, trainingMinutes: 30 }, { date: '2026-01-05', runs: 2, trainingMinutes: 60 }, { date: '2026-01-06', runs: 0, trainingMinutes: 0 }];
 assert.deepEqual(weeklyData(example, 'trainingMinutes'), [{ date: '2025-12-29', value: .5 }, { date: '2026-01-05', value: 1 }]);
+assert.deepEqual(weeklyRanges(example.slice().reverse(), 'runs', 2026, '2026-01-06'), [{ date: '2025-12-29', value: 1, startDate: '2026-01-01', endDate: '2026-01-04' }, { date: '2026-01-05', value: 2, startDate: '2026-01-05', endDate: '2026-01-06' }]);
+const real = JSON.parse(await readFile(new URL('../public/data/players/main.json', import.meta.url), 'utf8'));
+for (const year of [...new Set(real.daily.map(day => Number(day.date.slice(0, 4))))]) {
+  const days = real.daily.filter(day => day.date.startsWith(String(year)));
+  assert.equal(weeklyRanges(days, 'runs', year, real.today).reduce((sum, week) => sum + week.value, 0), days.reduce((sum, day) => sum + day.runs, 0));
+}
 assert.equal(summarize(example).streak, 0);
 assert.equal(mockActivity(2024).length, 366);
 assert.equal(mockActivity(2025).length, 365);

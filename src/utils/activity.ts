@@ -28,5 +28,13 @@ export function weeklyData(data: DailyActivity[], metric: Metric) {
     const key = dateKey(date);
     weeks.set(key, (weeks.get(key) ?? 0) + (day[metric] ?? 0));
   });
-  return Array.from(weeks, ([date, value]) => ({ date, value: metric === 'trainingMinutes' ? value / 60 : value }));
+  return Array.from(weeks, ([date, value]) => ({ date, value: metric === 'trainingMinutes' ? value / 60 : value })).sort((a, b) => a.date.localeCompare(b.date));
+}
+export function weeklyRanges(data: DailyActivity[], metric: Metric, year: number, through = `${year}-12-31`) {
+  return weeklyData(data.filter(day => day.date.startsWith(String(year)) && day.date <= through), metric).map(week => {
+    const end = parseDate(week.date); end.setUTCDate(end.getUTCDate() + 6);
+    const startDate = week.date < `${year}-01-01` ? `${year}-01-01` : week.date;
+    const endDate = [dateKey(end), `${year}-12-31`, through].sort()[0];
+    return { ...week, startDate, endDate };
+  });
 }

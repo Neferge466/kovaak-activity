@@ -29,4 +29,8 @@ export interface OnlineDataset {
   sampledPlays: number;
   unassignedPlays: number;
   counterResets: number;
+  history: { source: string; onlineAdded: number; fetchedAt: string; recordCount: number; scenarioCount: number; firstDate: string | null; lastDate: string | null } | null;
+  pattern: { activeDays: number; runs: number; weekdayRuns: number[]; peakStart: number | null; peakEnd: number | null } | null;
+  scoreProgress: { id: string; scenarioName: string; scores: { timestamp: string; score: number }[] }[];
+  scoreTracking: { fetchedAt: string | null; possibleGaps: number; failedScenarios: number };
 }

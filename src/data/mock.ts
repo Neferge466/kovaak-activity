@@ -1,7 +1,6 @@
 import type { DailyActivity, PlayerProfile, ScenarioActivity } from '../types/activity';
 import { dateKey } from '../utils/activity';
 export const profile: PlayerProfile = { id: 'main', displayName: 'Aimer7', timezone: 'Asia/Hong_Kong' };
-// Fixed demo clock keeps the example reproducible and avoids invented future activity.
 export const demoToday = '2026-09-29';
 export function mockActivity(year: number): DailyActivity[] {
   const end = year === 2026 ? new Date(`${demoToday}T00:00:00Z`) : new Date(Date.UTC(year, 11, 31));

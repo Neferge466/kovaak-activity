@@ -22,7 +22,7 @@ export function normalizeEvents(rows, steamId) {
   return rows.filter(row => row.type === 'HIGH_SCORE' && String(row.steamId) === steamId && Number.isFinite(Date.parse(row.timestamp)) && typeof row.scenarioName === 'string' && typeof row.score === 'number' && Number.isFinite(row.score)).map(row => ({ timestamp: row.timestamp, scenarioName: row.scenarioName, scenarioId: String(row.leaderboardId), score: row.score }));
 }
 export function makeInterval(previous, current, timezone) {
-  if (!previous) return null; // First observation is a baseline, never today's runs.
+  if (!previous) return null;
   if (Date.parse(current.capturedAt) <= Date.parse(previous.capturedAt)) throw new Error('Snapshot time must advance');
   if (previous.steamId !== current.steamId || previous.timezone !== timezone) throw new Error('Tracking identity or timezone changed; use a new player id');
   const delta = current.totalPlays - previous.totalPlays;

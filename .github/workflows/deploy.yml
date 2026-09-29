@@ -23,6 +23,7 @@ jobs:
           node-version: '24'
           cache: npm
       - run: npm ci
+      - run: node scripts/prepare-data.mjs
       - run: npm run check:calendar
       - run: npm run check:tracking
       - run: npm run build

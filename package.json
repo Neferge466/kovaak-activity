@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "scripts": { "predev": "node scripts/prepare-data.mjs", "dev": "vite --host 127.0.0.1", "prebuild": "node scripts/prepare-data.mjs", "build": "tsc -b && vite build", "preview": "vite preview --host 127.0.0.1", "check:calendar": "node scripts/check-calendar.mjs", "check:tracking": "node --test scripts/tests/tracking.test.mjs", "update:data": "node scripts/update-data.mjs" },
+  "scripts": { "predev": "node scripts/prepare-data.mjs", "dev": "vite --host 127.0.0.1", "prebuild": "node scripts/prepare-data.mjs", "build": "tsc -b && vite build", "preview": "vite preview --host 127.0.0.1", "check:calendar": "node scripts/check-calendar.mjs", "check:tracking": "node --test scripts/tests/*.test.mjs", "update:data": "node scripts/update-data.mjs", "check:polling": "node scripts/mock-score-polling.mjs", "sync:local": "node scripts/sync-local.mjs" },
   "dependencies": { "react": "~19.1.0", "react-dom": "~19.1.0" },
   "devDependencies": { "@types/react": "~19.1.0", "@types/react-dom": "~19.1.0", "@vitejs/plugin-react": "^4.7.0", "typescript": "~5.8.3", "vite": "^6.3.5" }
 }
