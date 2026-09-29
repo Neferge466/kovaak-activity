@@ -18,7 +18,8 @@ export default function ActivityHeatmap({ data, year, metric, today }: Props) {
   }, []);
   function show(date: DailyActivity, element: HTMLButtonElement) {
     const rect = element.getBoundingClientRect();
-    setPosition({ left: Math.max(120, Math.min(window.innerWidth - 120, rect.left + rect.width / 2)), top: rect.bottom + 9 });
+    const halfWidth = Math.min(280, window.innerWidth - 24) / 2;
+    setPosition({ left: Math.max(halfWidth + 12, Math.min(window.innerWidth - halfWidth - 12, rect.left + rect.width / 2)), top: rect.bottom + 130 > window.innerHeight ? Math.max(12, rect.top - 125) : rect.bottom + 9 });
     setSelected(date);
   }
   const lookup = new Map(data.map(day => [day.date, day]));
