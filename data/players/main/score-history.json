@@ -4,7 +4,7 @@
   "timezone": "Asia/Shanghai",
   "source": "kovaak-last-scores-by-name",
   "coverage": "partial",
-  "fetchedAt": "2026-09-29T12:53:31.699Z",
+  "fetchedAt": "2026-09-29T13:27:22.202Z",
   "records": [
     {
       "scenarioId": "16",
@@ -6508,8 +6508,83 @@
       "timestamp": "2026-09-29T12:46:16.456Z",
       "score": 10840,
       "startedAt": "2026-09-29T12:45:15.215Z"
+    },
+    {
+      "scenarioId": "34963",
+      "scenarioName": "Whisphere",
+      "timestamp": "2026-09-29T13:01:38.130Z",
+      "score": 11910,
+      "startedAt": "2026-09-29T13:00:36.886Z"
+    },
+    {
+      "scenarioId": "34963",
+      "scenarioName": "Whisphere",
+      "timestamp": "2026-09-29T13:03:34.159Z",
+      "score": 11500,
+      "startedAt": "2026-09-29T13:02:32.895Z"
+    },
+    {
+      "scenarioId": "34963",
+      "scenarioName": "Whisphere",
+      "timestamp": "2026-09-29T13:05:56.853Z",
+      "score": 11590,
+      "startedAt": "2026-09-29T13:04:55.629Z"
+    },
+    {
+      "scenarioId": "34963",
+      "scenarioName": "Whisphere",
+      "timestamp": "2026-09-29T13:07:05.349Z",
+      "score": 11800,
+      "startedAt": "2026-09-29T13:06:04.051Z"
+    },
+    {
+      "scenarioId": "34963",
+      "scenarioName": "Whisphere",
+      "timestamp": "2026-09-29T13:08:17.773Z",
+      "score": 11290,
+      "startedAt": "2026-09-29T13:07:16.527Z"
+    },
+    {
+      "scenarioId": "34963",
+      "scenarioName": "Whisphere",
+      "timestamp": "2026-09-29T13:13:29.948Z",
+      "score": 11910,
+      "startedAt": "2026-09-29T13:12:27.701Z"
+    },
+    {
+      "scenarioId": "34963",
+      "scenarioName": "Whisphere",
+      "timestamp": "2026-09-29T13:21:10.657Z",
+      "score": 11872,
+      "startedAt": "2026-09-29T13:20:09.413Z"
+    },
+    {
+      "scenarioId": "34963",
+      "scenarioName": "Whisphere",
+      "timestamp": "2026-09-29T13:22:42.121Z",
+      "score": 11330,
+      "startedAt": "2026-09-29T13:21:40.906Z"
+    },
+    {
+      "scenarioId": "34963",
+      "scenarioName": "Whisphere",
+      "timestamp": "2026-09-29T13:23:47.688Z",
+      "score": 11290,
+      "startedAt": "2026-09-29T13:22:46.459Z"
+    },
+    {
+      "scenarioId": "34963",
+      "scenarioName": "Whisphere",
+      "timestamp": "2026-09-29T13:25:12.358Z",
+      "score": 10470,
+      "startedAt": "2026-09-29T13:24:11.110Z"
     }
   ],
   "errors": [],
-  "possibleGaps": []
+  "possibleGaps": [
+    {
+      "scenarioName": "Whisphere",
+      "detectedAt": "2026-09-29T13:27:22.202Z"
+    }
+  ]
 }
