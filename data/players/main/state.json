@@ -10,7 +10,7 @@
   },
   "trackingSince": "2026-09-29T06:23:06.681Z",
   "latest": {
-    "capturedAt": "2026-09-29T08:45:36.245Z",
+    "capturedAt": "2026-09-29T12:53:31.692Z",
     "steamId": "76561199196193444",
     "timezone": "Asia/Shanghai",
     "totalPlays": 526,
@@ -133,9 +133,25 @@
       "runs": 0,
       "date": "2026-09-29",
       "scenarios": []
+    },
+    {
+      "start": "2026-09-29T08:45:36.245Z",
+      "end": "2026-09-29T12:53:31.692Z",
+      "startDate": "2026-09-29",
+      "endDate": "2026-09-29",
+      "status": "assigned",
+      "runs": 0,
+      "date": "2026-09-29",
+      "scenarios": []
     }
   ],
   "pbEvents": [
+    {
+      "timestamp": "2026-09-29T12:44:56.862Z",
+      "scenarioName": "Whisphere",
+      "scenarioId": "34963",
+      "score": 12950
+    },
     {
       "timestamp": "2026-09-28T13:38:24.038Z",
       "scenarioName": "Controlsphere Far Larger",
