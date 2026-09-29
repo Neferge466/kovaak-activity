@@ -2,6 +2,7 @@ import { createContext, useContext, useEffect, useState } from 'react';
 import type { ReactNode } from 'react';
 export type Language = 'en' | 'zh';
 const en = {
+  hybridHistory: 'Online tracking · imported history', pollingLate: 'Online data has not refreshed for over 30 minutes. The scheduled job may be delayed.',
   weeklyTotal: 'Weekly total', dailyTotal: 'Daily count', yearRuns: '{year} total · {count} runs', weeklyExplanation: 'Each point totals Monday–Sunday from the same daily records as the heatmap.',
   pollingUpdated: 'Online scores checked {date}', pollingGap: '{count} polling windows may have missing runs. History remains incomplete.', pollingFailed: '{count} scenarios could not be refreshed; previous scores are preserved.', hybridNotice: 'Saved {count} training records across {scenarios} scenarios from local Stats and deduplicated online scores. Missing files or truncated API windows may leave gaps. Duration remains unavailable.',
   localHistory: 'Local Stats history', localNotice: 'Imported {count} completed-run CSVs across {scenarios} scenarios. Counts cover surviving local files; deleted files, unsaved runs and time outside challenges are not included. Duration is not inferred from Fight Time.', localFetched: 'Local Stats imported {date}', recordedRuns: 'Recorded Runs', recordedActive30: 'recorded active days / 30 days', runsActive: 'runs / recorded active day', recordedPeak: 'Most recorded run starts', recordedWeekday: 'Recorded runs by weekday · last 30 days',
@@ -12,6 +13,7 @@ const en = {
   futureDate: 'Future date', noData: 'No data', intensity: 'Activity intensity', future: 'Future', activePercent: '{count} active days · {percent}% of elapsed days', noDays: 'No recorded days', noHistory: 'No historical data', timeUnavailable: 'Time unavailable', newPBs: 'new PBs', scenarios: 'scenarios', noTrend: 'No training data for this year', weeklyHours: 'Weekly training hours', weekOf: 'Week of {date}', hours: 'hours', scoreRange: '{name}: {first} to {last}',
 };
 const zh: Record<keyof typeof en, string> = {
+  hybridHistory: '在线追踪 · 已导入历史', pollingLate: '线上数据已超过 30 分钟未更新，定时任务可能延迟。',
   weeklyTotal: '本周合计', dailyTotal: '当天次数', yearRuns: '{year} 年合计 · {count} 次', weeklyExplanation: '每个点为周一至周日合计，使用与热力图相同的每日记录。',
   pollingUpdated: '线上成绩检查于 {date}', pollingGap: '有 {count} 次抓取窗口可能漏掉训练记录，历史覆盖仍不完整。', pollingFailed: '有 {count} 个场景刷新失败，已保留之前的成绩。', hybridNotice: '已保存 {scenarios} 个场景的 {count} 条训练记录，来源为本地 Stats 与去重后的线上成绩。缺失文件或接口窗口截断可能造成遗漏，训练时长仍不可用。',
   localHistory: '本地 Stats 历史', localNotice: '已导入 {scenarios} 个场景的 {count} 份完成训练 CSV。统计覆盖仍保留的本地文件，不含已删除文件、未保存训练和挑战外时间。不会用 Fight Time 推算训练时长。', localFetched: '本地 Stats 导入于 {date}', recordedRuns: '已记录训练次数', recordedActive30: '已记录训练日 / 最近 30 天', runsActive: '次 / 已记录训练日', recordedPeak: '训练开始最集中的时段', recordedWeekday: '最近 30 天按星期统计的已记录次数',
