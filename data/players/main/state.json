@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "id": "main",
+    "steamId": "76561199196193444",
+    "username": "NEFOR",
+    "displayName": "NEFOR",
+    "timezone": "Asia/Shanghai",
+    "totalPlays": 526
+  },
+  "trackingSince": "2026-09-29T06:23:06.681Z",
+  "latest": {
+    "capturedAt": "2026-09-29T06:23:06.681Z",
+    "steamId": "76561199196193444",
+    "timezone": "Asia/Shanghai",
+    "totalPlays": 526,
+    "scenarios": [
+      {
+        "id": "2152",
+        "scenarioName": "Kindafar Long Strafes",
+        "plays": 273,
+        "score": 15858
+      },
+      {
+        "id": "43",
+        "scenarioName": "1wall5targets_pasu Reload",
+        "plays": 38,
+        "score": 82
+      },
+      {
+        "id": "27713",
+        "scenarioName": "e1se Far Angle Smoothness EASY",
+        "plays": 38,
+        "score": 251
+      },
+      {
+        "id": "374",
+        "scenarioName": "Ascended Tracking 90 Smooth",
+        "plays": 23,
+        "score": 17308.78
+      },
+      {
+        "id": "48910",
+        "scenarioName": "close diff bots",
+        "plays": 19,
+        "score": 600
+      },
+      {
+        "id": "525",
+        "scenarioName": "fuglaaXYLongstrafes",
+        "plays": 17,
+        "score": 428
+      },
+      {
+        "id": "1103",
+        "scenarioName": "gp close long strafes",
+        "plays": 17,
+        "score": 4806.55
+      },
+      {
+        "id": "24967",
+        "scenarioName": "VT Smoothbot Novice",
+        "plays": 17,
+        "score": 2771
+      },
+      {
+        "id": "2",
+        "scenarioName": "1wall 6targets small",
+        "plays": 15,
+        "score": 930.41
+      },
+      {
+        "id": "1235",
+        "scenarioName": "Kindaclose Mid Strafes",
+        "plays": 15,
+        "score": 11682
+      },
+      {
+        "id": "25165",
+        "scenarioName": "Houston Outlaws - Ground Tracking",
+        "plays": 15,
+        "score": 2357
+      },
+      {
+        "id": "27635",
+        "scenarioName": "Overwatch 2 - Vertical Tracking",
+        "plays": 15,
+        "score": 5250
+      },
+      {
+        "id": "233",
+        "scenarioName": "Narrow Strafe",
+        "plays": 10,
+        "score": 722.9
+      },
+      {
+        "id": "15205",
+        "scenarioName": "Humanoid Strafe Flat",
+        "plays": 10,
+        "score": 31.42
+      },
+      {
+        "id": "10420",
+        "scenarioName": "1wall6targets TE",
+        "plays": 3,
+        "score": 126.56
+      },
+      {
+        "id": "16",
+        "scenarioName": "1wall5targets_pasu",
+        "plays": 1,
+        "score": 25.71
+      }
+    ]
+  },
+  "intervals": [],
+  "pbEvents": [
+    {
+      "timestamp": "2026-09-28T13:38:24.038Z",
+      "scenarioName": "Controlsphere Far Larger",
+      "scenarioId": "124981",
+      "score": 10182
+    },
+    {
+      "timestamp": "2026-09-28T13:32:28.848Z",
+      "scenarioName": "cloverRawControl Easy",
+      "scenarioId": "69150",
+      "score": 8415
+    },
+    {
+      "timestamp": "2026-09-28T13:18:34.305Z",
+      "scenarioName": "voxTargetClick 20% Small",
+      "scenarioId": "857",
+      "score": 72
+    },
+    {
+      "timestamp": "2026-09-28T12:05:44.814Z",
+      "scenarioName": "Air Angelic 4 Voltaic Easy 80% (Good Version)",
+      "scenarioId": "13681",
+      "score": 3846
+    },
+    {
+      "timestamp": "2026-09-28T11:43:35.785Z",
+      "scenarioName": "Air Voltaic Easy Invincible 4",
+      "scenarioId": "21792",
+      "score": 2842
+    },
+    {
+      "timestamp": "2026-09-28T11:39:25.338Z",
+      "scenarioName": "Polarized Hell Easy 20% Slower",
+      "scenarioId": "124972",
+      "score": 2389
+    },
+    {
+      "timestamp": "2026-09-28T11:37:57.059Z",
+      "scenarioName": "Flicker Plaza rAim Easy",
+      "scenarioId": "606",
+      "score": 876.08
+    }
+  ]
+}

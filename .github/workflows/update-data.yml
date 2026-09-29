@@ -1,0 +1,41 @@
+name: Update activity data
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: activity-update
+  cancel-in-progress: false
+jobs:
+  update:
+    if: github.event_name == 'workflow_dispatch' || vars.TRACKING_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - run: npm run check:tracking
+      - run: npm run update:data
+      - name: Save snapshots
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/players
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update KovaaK activity snapshots'
+            git push
+          fi
+  # Commits made with GITHUB_TOKEN do not trigger a new push workflow.
+  # Calling the deployment explicitly ensures each saved snapshot reaches Pages.
+  publish:
+    needs: update
+    uses: ./.github/workflows/deploy.yml
