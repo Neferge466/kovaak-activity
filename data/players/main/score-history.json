@@ -4,7 +4,7 @@
   "timezone": "Asia/Shanghai",
   "source": "kovaak-last-scores-by-name",
   "coverage": "partial",
-  "fetchedAt": "2026-09-30T06:52:03.158Z",
+  "fetchedAt": "2026-09-30T13:04:22.970Z",
   "records": [
     {
       "scenarioId": "16",
@@ -6627,6 +6627,209 @@
       "timestamp": "2026-09-29T13:43:56.332Z",
       "score": 8757,
       "startedAt": "2026-09-29T13:42:54.402Z"
+    },
+    {
+      "scenarioId": "local-fd72b1e7345661eb",
+      "scenarioName": "WhisphereRawControl",
+      "timestamp": "2026-09-30T07:02:42.487Z",
+      "score": 8706,
+      "startedAt": "2026-09-30T06:26:49.854Z"
+    },
+    {
+      "scenarioId": "local-fd72b1e7345661eb",
+      "scenarioName": "WhisphereRawControl",
+      "timestamp": "2026-09-30T07:03:45.060Z",
+      "score": 7836,
+      "startedAt": "2026-09-30T06:27:52.425Z"
+    },
+    {
+      "scenarioId": "local-fd72b1e7345661eb",
+      "scenarioName": "WhisphereRawControl",
+      "timestamp": "2026-09-30T07:05:24.221Z",
+      "score": 8334,
+      "startedAt": "2026-09-30T06:29:31.616Z"
+    },
+    {
+      "scenarioId": "local-fd72b1e7345661eb",
+      "scenarioName": "WhisphereRawControl",
+      "timestamp": "2026-09-30T07:09:18.603Z",
+      "score": 9450,
+      "startedAt": "2026-09-30T06:33:25.977Z"
+    },
+    {
+      "scenarioId": "local-fd72b1e7345661eb",
+      "scenarioName": "WhisphereRawControl",
+      "timestamp": "2026-09-30T07:12:43.716Z",
+      "score": 8724,
+      "startedAt": "2026-09-30T06:36:51.141Z"
+    },
+    {
+      "scenarioId": "local-fd72b1e7345661eb",
+      "scenarioName": "WhisphereRawControl",
+      "timestamp": "2026-09-30T07:14:22.470Z",
+      "score": 9435,
+      "startedAt": "2026-09-30T06:38:29.843Z"
+    },
+    {
+      "scenarioId": "local-fd72b1e7345661eb",
+      "scenarioName": "WhisphereRawControl",
+      "timestamp": "2026-09-30T07:15:26.985Z",
+      "score": 9936,
+      "startedAt": "2026-09-30T06:39:34.347Z"
+    },
+    {
+      "scenarioId": "local-fd72b1e7345661eb",
+      "scenarioName": "WhisphereRawControl",
+      "timestamp": "2026-09-30T07:20:02.025Z",
+      "score": 8685,
+      "startedAt": "2026-09-30T06:44:09.417Z"
+    },
+    {
+      "scenarioId": "local-fd72b1e7345661eb",
+      "scenarioName": "WhisphereRawControl",
+      "timestamp": "2026-09-30T07:21:10.193Z",
+      "score": 8799,
+      "startedAt": "2026-09-30T06:45:17.542Z"
+    },
+    {
+      "scenarioId": "local-3380fb1542d07d9f",
+      "scenarioName": "1w3ts reload",
+      "timestamp": "2026-09-30T07:24:33.234Z",
+      "score": 84,
+      "startedAt": "2026-09-30T06:48:40.642Z"
+    },
+    {
+      "scenarioId": "local-3380fb1542d07d9f",
+      "scenarioName": "1w3ts reload",
+      "timestamp": "2026-09-30T07:27:14.738Z",
+      "score": 87,
+      "startedAt": "2026-09-30T06:51:22.150Z"
+    },
+    {
+      "scenarioId": "local-3380fb1542d07d9f",
+      "scenarioName": "1w3ts reload",
+      "timestamp": "2026-09-30T07:28:54.199Z",
+      "score": 87,
+      "startedAt": "2026-09-30T06:53:01.584Z"
+    },
+    {
+      "scenarioId": "local-3380fb1542d07d9f",
+      "scenarioName": "1w3ts reload",
+      "timestamp": "2026-09-30T07:30:00.545Z",
+      "score": 83,
+      "startedAt": "2026-09-30T06:54:07.913Z"
+    },
+    {
+      "scenarioId": "local-7020e0add7244b39",
+      "scenarioName": "voxTargetSwitch 2",
+      "timestamp": "2026-09-30T07:31:15.164Z",
+      "score": 98,
+      "startedAt": "2026-09-30T06:55:22.563Z"
+    },
+    {
+      "scenarioId": "local-54d0d2c95831525f",
+      "scenarioName": "voxTargetSwitch 2 Large",
+      "timestamp": "2026-09-30T07:32:42.791Z",
+      "score": 109.14,
+      "startedAt": "2026-09-30T06:56:50.063Z"
+    },
+    {
+      "scenarioId": "local-54d0d2c95831525f",
+      "scenarioName": "voxTargetSwitch 2 Large",
+      "timestamp": "2026-09-30T07:34:15.318Z",
+      "score": 105,
+      "startedAt": "2026-09-30T06:58:22.733Z"
+    },
+    {
+      "scenarioId": "local-54d0d2c95831525f",
+      "scenarioName": "voxTargetSwitch 2 Large",
+      "timestamp": "2026-09-30T07:35:16.114Z",
+      "score": 116.89,
+      "startedAt": "2026-09-30T06:59:23.515Z"
+    },
+    {
+      "scenarioId": "local-54d0d2c95831525f",
+      "scenarioName": "voxTargetSwitch 2 Large",
+      "timestamp": "2026-09-30T07:39:58.281Z",
+      "score": 116,
+      "startedAt": "2026-09-30T07:04:05.687Z"
+    },
+    {
+      "scenarioId": "local-54d0d2c95831525f",
+      "scenarioName": "voxTargetSwitch 2 Large",
+      "timestamp": "2026-09-30T07:43:47.933Z",
+      "score": 120,
+      "startedAt": "2026-09-30T07:07:55.184Z"
+    },
+    {
+      "scenarioId": "local-54d0d2c95831525f",
+      "scenarioName": "voxTargetSwitch 2 Large",
+      "timestamp": "2026-09-30T07:45:38.340Z",
+      "score": 117,
+      "startedAt": "2026-09-30T07:09:45.735Z"
+    },
+    {
+      "scenarioId": "local-54d0d2c95831525f",
+      "scenarioName": "voxTargetSwitch 2 Large",
+      "timestamp": "2026-09-30T07:49:19.638Z",
+      "score": 117.7,
+      "startedAt": "2026-09-30T07:13:27.079Z"
+    },
+    {
+      "scenarioId": "local-b64208155f0c6f73",
+      "scenarioName": "VT Bounceshot Intermediate",
+      "timestamp": "2026-09-30T07:54:21.424Z",
+      "score": 540,
+      "startedAt": "2026-09-30T07:18:28.831Z"
+    },
+    {
+      "scenarioId": "43",
+      "scenarioName": "1wall5targets_pasu Reload",
+      "timestamp": "2026-09-30T07:56:18.710Z",
+      "score": 99,
+      "startedAt": "2026-09-30T07:20:00.387Z"
+    },
+    {
+      "scenarioId": "local-fd72b1e7345661eb",
+      "scenarioName": "WhisphereRawControl",
+      "timestamp": "2026-09-30T07:57:43.382Z",
+      "score": 9573,
+      "startedAt": "2026-09-30T07:21:50.796Z"
+    },
+    {
+      "scenarioId": "2152",
+      "scenarioName": "Kindafar Long Strafes",
+      "timestamp": "2026-09-30T08:04:58.353Z",
+      "score": 16326,
+      "startedAt": "2026-09-30T07:29:05.757Z"
+    },
+    {
+      "scenarioId": "2152",
+      "scenarioName": "Kindafar Long Strafes",
+      "timestamp": "2026-09-30T08:07:36.951Z",
+      "score": 16704,
+      "startedAt": "2026-09-30T07:31:44.349Z"
+    },
+    {
+      "scenarioId": "2152",
+      "scenarioName": "Kindafar Long Strafes",
+      "timestamp": "2026-09-30T08:08:50.181Z",
+      "score": 16830,
+      "startedAt": "2026-09-30T07:32:57.609Z"
+    },
+    {
+      "scenarioId": "2152",
+      "scenarioName": "Kindafar Long Strafes",
+      "timestamp": "2026-09-30T08:09:58.227Z",
+      "score": 15984,
+      "startedAt": "2026-09-30T07:34:05.649Z"
+    },
+    {
+      "scenarioId": "2152",
+      "scenarioName": "Kindafar Long Strafes",
+      "timestamp": "2026-09-30T08:11:01.879Z",
+      "score": 17226,
+      "startedAt": "2026-09-30T07:35:09.320Z"
     }
   ],
   "errors": [],
@@ -6634,6 +6837,10 @@
     {
       "scenarioName": "Whisphere",
       "detectedAt": "2026-09-29T13:27:22.202Z"
+    },
+    {
+      "scenarioName": "WhisphereRawControl",
+      "detectedAt": "2026-09-30T13:04:22.970Z"
     }
   ]
 }
