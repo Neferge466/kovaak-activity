@@ -4,7 +4,7 @@
   "timezone": "Asia/Shanghai",
   "source": "kovaak-last-scores-by-name",
   "coverage": "partial",
-  "fetchedAt": "2026-10-01T01:20:38.029Z",
+  "fetchedAt": "2026-10-01T07:16:08.050Z",
   "records": [
     {
       "scenarioId": "16",
@@ -6830,6 +6830,27 @@
       "timestamp": "2026-09-30T08:11:01.879Z",
       "score": 17226,
       "startedAt": "2026-09-30T07:35:09.320Z"
+    },
+    {
+      "scenarioId": "local-fd72b1e7345661eb",
+      "scenarioName": "WhisphereRawControl",
+      "timestamp": "2026-10-01T06:09:27.478Z",
+      "score": 7959,
+      "startedAt": "2026-10-01T05:33:33.098Z"
+    },
+    {
+      "scenarioId": "local-fd72b1e7345661eb",
+      "scenarioName": "WhisphereRawControl",
+      "timestamp": "2026-10-01T06:13:11.690Z",
+      "score": 7731,
+      "startedAt": "2026-10-01T05:37:17.308Z"
+    },
+    {
+      "scenarioId": "local-fd72b1e7345661eb",
+      "scenarioName": "WhisphereRawControl",
+      "timestamp": "2026-10-01T06:16:16.806Z",
+      "score": 8901,
+      "startedAt": "2026-10-01T05:40:22.425Z"
     }
   ],
   "errors": [],
