@@ -10,7 +10,7 @@
   },
   "trackingSince": "2026-09-29T06:23:06.681Z",
   "latest": {
-    "capturedAt": "2026-10-02T08:40:47.578Z",
+    "capturedAt": "2026-10-02T15:01:01.321Z",
     "steamId": "76561199196193444",
     "timezone": "Asia/Shanghai",
     "totalPlays": 526,
@@ -284,6 +284,16 @@
     {
       "start": "2026-10-02T02:20:20.736Z",
       "end": "2026-10-02T08:40:47.578Z",
+      "startDate": "2026-10-02",
+      "endDate": "2026-10-02",
+      "status": "assigned",
+      "runs": 0,
+      "date": "2026-10-02",
+      "scenarios": []
+    },
+    {
+      "start": "2026-10-02T08:40:47.578Z",
+      "end": "2026-10-02T15:01:01.321Z",
       "startDate": "2026-10-02",
       "endDate": "2026-10-02",
       "status": "assigned",
