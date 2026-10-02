@@ -4,7 +4,7 @@
   "timezone": "Asia/Shanghai",
   "source": "kovaak-last-scores-by-name",
   "coverage": "partial",
-  "fetchedAt": "2026-10-02T02:20:20.740Z",
+  "fetchedAt": "2026-10-02T08:40:47.583Z",
   "records": [
     {
       "scenarioId": "16",
@@ -6349,7 +6349,7 @@
       "startedAt": "2026-09-28T13:20:28.926Z"
     },
     {
-      "scenarioId": "local-0a4464bcbb7f2f51",
+      "scenarioId": "42",
       "scenarioName": "Air Angelic 4 Voltaic Easy",
       "timestamp": "2026-09-28T13:22:48.548Z",
       "score": 3208,
@@ -6851,6 +6851,97 @@
       "timestamp": "2026-10-01T06:16:16.806Z",
       "score": 8901,
       "startedAt": "2026-10-01T05:40:22.425Z"
+    },
+    {
+      "scenarioId": "local-fd72b1e7345661eb",
+      "scenarioName": "WhisphereRawControl",
+      "timestamp": "2026-10-02T03:50:04.802Z",
+      "score": 8010,
+      "startedAt": "2026-10-02T03:49:04.465Z"
+    },
+    {
+      "scenarioId": "local-fd72b1e7345661eb",
+      "scenarioName": "WhisphereRawControl",
+      "timestamp": "2026-10-02T03:54:21.337Z",
+      "score": 9702,
+      "startedAt": "2026-10-02T03:53:21.020Z"
+    },
+    {
+      "scenarioId": "local-3380fb1542d07d9f",
+      "scenarioName": "1w3ts reload",
+      "timestamp": "2026-10-02T03:56:25.581Z",
+      "score": 84,
+      "startedAt": "2026-10-02T03:55:25.273Z"
+    },
+    {
+      "scenarioId": "local-3380fb1542d07d9f",
+      "scenarioName": "1w3ts reload",
+      "timestamp": "2026-10-02T03:58:42.109Z",
+      "score": 87,
+      "startedAt": "2026-10-02T03:57:41.801Z"
+    },
+    {
+      "scenarioId": "42",
+      "scenarioName": "Air Angelic 4 Voltaic Easy",
+      "timestamp": "2026-10-02T04:00:18.833Z",
+      "score": 3309,
+      "startedAt": "2026-10-02T03:59:18.518Z"
+    },
+    {
+      "scenarioId": "42",
+      "scenarioName": "Air Angelic 4 Voltaic Easy",
+      "timestamp": "2026-10-02T04:04:30.082Z",
+      "score": 3414,
+      "startedAt": "2026-10-02T04:03:29.762Z"
+    },
+    {
+      "scenarioId": "42",
+      "scenarioName": "Air Angelic 4 Voltaic Easy",
+      "timestamp": "2026-10-02T04:05:43.603Z",
+      "score": 3261,
+      "startedAt": "2026-10-02T04:04:43.326Z"
+    },
+    {
+      "scenarioId": "42",
+      "scenarioName": "Air Angelic 4 Voltaic Easy",
+      "timestamp": "2026-10-02T04:06:55.306Z",
+      "score": 3466,
+      "startedAt": "2026-10-02T04:05:54.991Z"
+    },
+    {
+      "scenarioId": "42",
+      "scenarioName": "Air Angelic 4 Voltaic Easy",
+      "timestamp": "2026-10-02T04:08:09.865Z",
+      "score": 3144,
+      "startedAt": "2026-10-02T04:07:09.598Z"
+    },
+    {
+      "scenarioId": "42",
+      "scenarioName": "Air Angelic 4 Voltaic Easy",
+      "timestamp": "2026-10-02T04:09:32.297Z",
+      "score": 3152,
+      "startedAt": "2026-10-02T04:08:32.032Z"
+    },
+    {
+      "scenarioId": "42",
+      "scenarioName": "Air Angelic 4 Voltaic Easy",
+      "timestamp": "2026-10-02T04:12:45.534Z",
+      "score": 3297,
+      "startedAt": "2026-10-02T04:11:45.262Z"
+    },
+    {
+      "scenarioId": "42",
+      "scenarioName": "Air Angelic 4 Voltaic Easy",
+      "timestamp": "2026-10-02T04:14:02.939Z",
+      "score": 3415,
+      "startedAt": "2026-10-02T04:13:02.650Z"
+    },
+    {
+      "scenarioId": "42",
+      "scenarioName": "Air Angelic 4 Voltaic Easy",
+      "timestamp": "2026-10-02T04:15:15.839Z",
+      "score": 3530,
+      "startedAt": "2026-10-02T04:14:15.545Z"
     }
   ],
   "errors": [],
