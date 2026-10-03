@@ -4,7 +4,7 @@
   "timezone": "Asia/Shanghai",
   "source": "kovaak-last-scores-by-name",
   "coverage": "partial",
-  "fetchedAt": "2026-10-03T02:03:03.212Z",
+  "fetchedAt": "2026-10-03T07:57:29.530Z",
   "records": [
     {
       "scenarioId": "16",
@@ -6942,6 +6942,104 @@
       "timestamp": "2026-10-02T04:15:15.839Z",
       "score": 3530,
       "startedAt": "2026-10-02T04:14:15.545Z"
+    },
+    {
+      "scenarioId": "local-fd72b1e7345661eb",
+      "scenarioName": "WhisphereRawControl",
+      "timestamp": "2026-10-03T04:38:09.778Z",
+      "score": 8607,
+      "startedAt": "2026-10-03T04:37:08.022Z"
+    },
+    {
+      "scenarioId": "local-fd72b1e7345661eb",
+      "scenarioName": "WhisphereRawControl",
+      "timestamp": "2026-10-03T04:39:31.858Z",
+      "score": 8922,
+      "startedAt": "2026-10-03T04:38:30.081Z"
+    },
+    {
+      "scenarioId": "local-fd72b1e7345661eb",
+      "scenarioName": "WhisphereRawControl",
+      "timestamp": "2026-10-03T04:42:43.212Z",
+      "score": 9048,
+      "startedAt": "2026-10-03T04:41:41.456Z"
+    },
+    {
+      "scenarioId": "local-fd72b1e7345661eb",
+      "scenarioName": "WhisphereRawControl",
+      "timestamp": "2026-10-03T04:45:00.306Z",
+      "score": 8871,
+      "startedAt": "2026-10-03T04:43:58.575Z"
+    },
+    {
+      "scenarioId": "local-fd72b1e7345661eb",
+      "scenarioName": "WhisphereRawControl",
+      "timestamp": "2026-10-03T04:46:04.738Z",
+      "score": 9516,
+      "startedAt": "2026-10-03T04:45:02.990Z"
+    },
+    {
+      "scenarioId": "local-fd72b1e7345661eb",
+      "scenarioName": "WhisphereRawControl",
+      "timestamp": "2026-10-03T04:47:41.832Z",
+      "score": 8970,
+      "startedAt": "2026-10-03T04:46:40.119Z"
+    },
+    {
+      "scenarioId": "local-fd72b1e7345661eb",
+      "scenarioName": "WhisphereRawControl",
+      "timestamp": "2026-10-03T04:48:44.739Z",
+      "score": 9594,
+      "startedAt": "2026-10-03T04:47:42.975Z"
+    },
+    {
+      "scenarioId": "local-7ffffc8fca404126",
+      "scenarioName": "WhisphereRawControl Larger + Slowed",
+      "timestamp": "2026-10-03T04:51:24.057Z",
+      "score": 11832,
+      "startedAt": "2026-10-03T04:50:22.309Z"
+    },
+    {
+      "scenarioId": "local-7ffffc8fca404126",
+      "scenarioName": "WhisphereRawControl Larger + Slowed",
+      "timestamp": "2026-10-03T04:52:27.623Z",
+      "score": 12567,
+      "startedAt": "2026-10-03T04:51:25.881Z"
+    },
+    {
+      "scenarioId": "local-7ffffc8fca404126",
+      "scenarioName": "WhisphereRawControl Larger + Slowed",
+      "timestamp": "2026-10-03T04:53:35.981Z",
+      "score": 13146,
+      "startedAt": "2026-10-03T04:52:34.253Z"
+    },
+    {
+      "scenarioId": "local-7ffffc8fca404126",
+      "scenarioName": "WhisphereRawControl Larger + Slowed",
+      "timestamp": "2026-10-03T04:58:18.836Z",
+      "score": 12582,
+      "startedAt": "2026-10-03T04:57:17.083Z"
+    },
+    {
+      "scenarioId": "local-7ffffc8fca404126",
+      "scenarioName": "WhisphereRawControl Larger + Slowed",
+      "timestamp": "2026-10-03T05:00:37.736Z",
+      "score": 12540,
+      "startedAt": "2026-10-03T04:59:35.995Z"
+    },
+    {
+      "scenarioId": "local-7ffffc8fca404126",
+      "scenarioName": "WhisphereRawControl Larger + Slowed",
+      "timestamp": "2026-10-03T05:02:13.481Z",
+      "score": 12822,
+      "startedAt": "2026-10-03T05:01:11.718Z"
+    },
+    {
+      "scenarioId": "local-fd72b1e7345661eb",
+      "scenarioName": "WhisphereRawControl",
+      "timestamp": "2026-10-03T05:04:04.180Z",
+      "score": 9849,
+      "startedAt": "2026-10-03T05:03:02.410Z"
     }
   ],
   "errors": [],
