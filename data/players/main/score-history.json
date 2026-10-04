@@ -4,7 +4,7 @@
   "timezone": "Asia/Shanghai",
   "source": "kovaak-last-scores-by-name",
   "coverage": "partial",
-  "fetchedAt": "2026-10-04T01:42:19.776Z",
+  "fetchedAt": "2026-10-04T07:23:28.529Z",
   "records": [
     {
       "scenarioId": "16",
@@ -7040,6 +7040,118 @@
       "timestamp": "2026-10-03T05:04:04.180Z",
       "score": 9849,
       "startedAt": "2026-10-03T05:03:02.410Z"
+    },
+    {
+      "scenarioId": "local-fd72b1e7345661eb",
+      "scenarioName": "WhisphereRawControl",
+      "timestamp": "2026-10-04T05:06:13.953Z",
+      "score": 8481,
+      "startedAt": "2026-10-04T05:05:14.488Z"
+    },
+    {
+      "scenarioId": "local-fd72b1e7345661eb",
+      "scenarioName": "WhisphereRawControl",
+      "timestamp": "2026-10-04T05:07:22.069Z",
+      "score": 8865,
+      "startedAt": "2026-10-04T05:06:22.463Z"
+    },
+    {
+      "scenarioId": "local-fd72b1e7345661eb",
+      "scenarioName": "WhisphereRawControl",
+      "timestamp": "2026-10-04T05:08:40.422Z",
+      "score": 8997,
+      "startedAt": "2026-10-04T05:07:40.989Z"
+    },
+    {
+      "scenarioId": "local-fd72b1e7345661eb",
+      "scenarioName": "WhisphereRawControl",
+      "timestamp": "2026-10-04T05:11:24.371Z",
+      "score": 9096,
+      "startedAt": "2026-10-04T05:10:24.918Z"
+    },
+    {
+      "scenarioId": "local-fd72b1e7345661eb",
+      "scenarioName": "WhisphereRawControl",
+      "timestamp": "2026-10-04T05:12:42.573Z",
+      "score": 9576,
+      "startedAt": "2026-10-04T05:11:43.166Z"
+    },
+    {
+      "scenarioId": "local-fd72b1e7345661eb",
+      "scenarioName": "WhisphereRawControl",
+      "timestamp": "2026-10-04T05:13:46.215Z",
+      "score": 9378,
+      "startedAt": "2026-10-04T05:12:46.683Z"
+    },
+    {
+      "scenarioId": "local-fd72b1e7345661eb",
+      "scenarioName": "WhisphereRawControl",
+      "timestamp": "2026-10-04T05:14:48.172Z",
+      "score": 9759,
+      "startedAt": "2026-10-04T05:13:48.700Z"
+    },
+    {
+      "scenarioId": "local-fd72b1e7345661eb",
+      "scenarioName": "WhisphereRawControl",
+      "timestamp": "2026-10-04T05:16:03.843Z",
+      "score": 9621,
+      "startedAt": "2026-10-04T05:15:04.372Z"
+    },
+    {
+      "scenarioId": "local-fd72b1e7345661eb",
+      "scenarioName": "WhisphereRawControl",
+      "timestamp": "2026-10-04T05:17:57.617Z",
+      "score": 9882,
+      "startedAt": "2026-10-04T05:16:58.186Z"
+    },
+    {
+      "scenarioId": "local-fd72b1e7345661eb",
+      "scenarioName": "WhisphereRawControl",
+      "timestamp": "2026-10-04T05:19:13.703Z",
+      "score": 10074,
+      "startedAt": "2026-10-04T05:18:14.248Z"
+    },
+    {
+      "scenarioId": "42",
+      "scenarioName": "Air Angelic 4 Voltaic Easy",
+      "timestamp": "2026-10-04T05:20:35.952Z",
+      "score": 3163,
+      "startedAt": "2026-10-04T05:19:36.359Z"
+    },
+    {
+      "scenarioId": "42",
+      "scenarioName": "Air Angelic 4 Voltaic Easy",
+      "timestamp": "2026-10-04T05:21:43.379Z",
+      "score": 3477,
+      "startedAt": "2026-10-04T05:20:43.883Z"
+    },
+    {
+      "scenarioId": "local-7ffffc8fca404126",
+      "scenarioName": "WhisphereRawControl Larger + Slowed",
+      "timestamp": "2026-10-04T05:22:59.518Z",
+      "score": 12612,
+      "startedAt": "2026-10-04T05:22:00.063Z"
+    },
+    {
+      "scenarioId": "local-7ffffc8fca404126",
+      "scenarioName": "WhisphereRawControl Larger + Slowed",
+      "timestamp": "2026-10-04T05:24:16.368Z",
+      "score": 12549,
+      "startedAt": "2026-10-04T05:23:16.929Z"
+    },
+    {
+      "scenarioId": "local-7ffffc8fca404126",
+      "scenarioName": "WhisphereRawControl Larger + Slowed",
+      "timestamp": "2026-10-04T05:25:25.349Z",
+      "score": 12939,
+      "startedAt": "2026-10-04T05:24:25.933Z"
+    },
+    {
+      "scenarioId": "2152",
+      "scenarioName": "Kindafar Long Strafes",
+      "timestamp": "2026-10-04T05:31:32.167Z",
+      "score": 17118,
+      "startedAt": "2026-10-04T05:30:32.692Z"
     }
   ],
   "errors": [],
@@ -7051,6 +7163,10 @@
     {
       "scenarioName": "WhisphereRawControl",
       "detectedAt": "2026-09-30T13:04:22.970Z"
+    },
+    {
+      "scenarioName": "WhisphereRawControl",
+      "detectedAt": "2026-10-04T07:23:28.529Z"
     }
   ]
 }
