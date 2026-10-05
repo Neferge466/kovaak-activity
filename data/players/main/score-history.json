@@ -4,7 +4,7 @@
   "timezone": "Asia/Shanghai",
   "source": "kovaak-last-scores-by-name",
   "coverage": "partial",
-  "fetchedAt": "2026-10-04T23:18:36.635Z",
+  "fetchedAt": "2026-10-05T02:03:08.969Z",
   "records": [
     {
       "scenarioId": "16",
@@ -7154,7 +7154,12 @@
       "startedAt": "2026-10-04T05:30:32.692Z"
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "scenarioName": "Controlsphere Click",
+      "error": "user/scenario/last-scores/by-name: HTTP 429"
+    }
+  ],
   "possibleGaps": [
     {
       "scenarioName": "Whisphere",
