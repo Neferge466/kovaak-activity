@@ -4,7 +4,7 @@
   "timezone": "Asia/Shanghai",
   "source": "kovaak-last-scores-by-name",
   "coverage": "partial",
-  "fetchedAt": "2026-10-05T02:03:08.969Z",
+  "fetchedAt": "2026-10-05T08:50:43.224Z",
   "records": [
     {
       "scenarioId": "16",
@@ -4515,7 +4515,7 @@
       "startedAt": "2026-08-02T01:16:40.060Z"
     },
     {
-      "scenarioId": "local-c13fb5bb6afe95dc",
+      "scenarioId": "5599",
       "scenarioName": "Centering 90 Easy No Strafes",
       "timestamp": "2026-08-02T01:19:58.369Z",
       "score": 16182,
@@ -4578,14 +4578,14 @@
       "startedAt": "2026-08-18T13:16:40.159Z"
     },
     {
-      "scenarioId": "local-c13fb5bb6afe95dc",
+      "scenarioId": "5599",
       "scenarioName": "Centering 90 Easy No Strafes",
       "timestamp": "2026-08-18T13:19:08.142Z",
       "score": 16164,
       "startedAt": "2026-08-18T13:18:05.590Z"
     },
     {
-      "scenarioId": "local-c13fb5bb6afe95dc",
+      "scenarioId": "5599",
       "scenarioName": "Centering 90 Easy No Strafes",
       "timestamp": "2026-08-18T13:20:28.014Z",
       "score": 17046,
@@ -4718,14 +4718,14 @@
       "startedAt": "2026-08-20T12:03:56.865Z"
     },
     {
-      "scenarioId": "local-c13fb5bb6afe95dc",
+      "scenarioId": "5599",
       "scenarioName": "Centering 90 Easy No Strafes",
       "timestamp": "2026-08-20T12:06:11.807Z",
       "score": 17262,
       "startedAt": "2026-08-20T12:05:05.758Z"
     },
     {
-      "scenarioId": "local-c13fb5bb6afe95dc",
+      "scenarioId": "5599",
       "scenarioName": "Centering 90 Easy No Strafes",
       "timestamp": "2026-08-20T12:08:13.425Z",
       "score": 16614,
@@ -6993,42 +6993,42 @@
       "startedAt": "2026-10-03T04:47:42.975Z"
     },
     {
-      "scenarioId": "local-7ffffc8fca404126",
+      "scenarioId": "128696",
       "scenarioName": "WhisphereRawControl Larger + Slowed",
       "timestamp": "2026-10-03T04:51:24.057Z",
       "score": 11832,
       "startedAt": "2026-10-03T04:50:22.309Z"
     },
     {
-      "scenarioId": "local-7ffffc8fca404126",
+      "scenarioId": "128696",
       "scenarioName": "WhisphereRawControl Larger + Slowed",
       "timestamp": "2026-10-03T04:52:27.623Z",
       "score": 12567,
       "startedAt": "2026-10-03T04:51:25.881Z"
     },
     {
-      "scenarioId": "local-7ffffc8fca404126",
+      "scenarioId": "128696",
       "scenarioName": "WhisphereRawControl Larger + Slowed",
       "timestamp": "2026-10-03T04:53:35.981Z",
       "score": 13146,
       "startedAt": "2026-10-03T04:52:34.253Z"
     },
     {
-      "scenarioId": "local-7ffffc8fca404126",
+      "scenarioId": "128696",
       "scenarioName": "WhisphereRawControl Larger + Slowed",
       "timestamp": "2026-10-03T04:58:18.836Z",
       "score": 12582,
       "startedAt": "2026-10-03T04:57:17.083Z"
     },
     {
-      "scenarioId": "local-7ffffc8fca404126",
+      "scenarioId": "128696",
       "scenarioName": "WhisphereRawControl Larger + Slowed",
       "timestamp": "2026-10-03T05:00:37.736Z",
       "score": 12540,
       "startedAt": "2026-10-03T04:59:35.995Z"
     },
     {
-      "scenarioId": "local-7ffffc8fca404126",
+      "scenarioId": "128696",
       "scenarioName": "WhisphereRawControl Larger + Slowed",
       "timestamp": "2026-10-03T05:02:13.481Z",
       "score": 12822,
@@ -7126,21 +7126,21 @@
       "startedAt": "2026-10-04T05:20:43.883Z"
     },
     {
-      "scenarioId": "local-7ffffc8fca404126",
+      "scenarioId": "128696",
       "scenarioName": "WhisphereRawControl Larger + Slowed",
       "timestamp": "2026-10-04T05:22:59.518Z",
       "score": 12612,
       "startedAt": "2026-10-04T05:22:00.063Z"
     },
     {
-      "scenarioId": "local-7ffffc8fca404126",
+      "scenarioId": "128696",
       "scenarioName": "WhisphereRawControl Larger + Slowed",
       "timestamp": "2026-10-04T05:24:16.368Z",
       "score": 12549,
       "startedAt": "2026-10-04T05:23:16.929Z"
     },
     {
-      "scenarioId": "local-7ffffc8fca404126",
+      "scenarioId": "128696",
       "scenarioName": "WhisphereRawControl Larger + Slowed",
       "timestamp": "2026-10-04T05:25:25.349Z",
       "score": 12939,
@@ -7152,14 +7152,100 @@
       "timestamp": "2026-10-04T05:31:32.167Z",
       "score": 17118,
       "startedAt": "2026-10-04T05:30:32.692Z"
-    }
-  ],
-  "errors": [
+    },
     {
-      "scenarioName": "Controlsphere Click",
-      "error": "user/scenario/last-scores/by-name: HTTP 429"
+      "scenarioId": "5599",
+      "scenarioName": "Centering 90 Easy No Strafes",
+      "timestamp": "2026-10-05T03:31:51.585Z",
+      "score": 18594,
+      "startedAt": "2026-10-05T03:30:51.603Z"
+    },
+    {
+      "scenarioId": "local-fd72b1e7345661eb",
+      "scenarioName": "WhisphereRawControl",
+      "timestamp": "2026-10-05T03:33:53.765Z",
+      "score": 8679,
+      "startedAt": "2026-10-05T03:32:54.249Z"
+    },
+    {
+      "scenarioId": "local-fd72b1e7345661eb",
+      "scenarioName": "WhisphereRawControl",
+      "timestamp": "2026-10-05T03:36:34.922Z",
+      "score": 9021,
+      "startedAt": "2026-10-05T03:35:35.437Z"
+    },
+    {
+      "scenarioId": "local-fd72b1e7345661eb",
+      "scenarioName": "WhisphereRawControl",
+      "timestamp": "2026-10-05T03:40:15.132Z",
+      "score": 9621,
+      "startedAt": "2026-10-05T03:39:15.639Z"
+    },
+    {
+      "scenarioId": "local-fd72b1e7345661eb",
+      "scenarioName": "WhisphereRawControl",
+      "timestamp": "2026-10-05T03:48:49.761Z",
+      "score": 9204,
+      "startedAt": "2026-10-05T03:47:50.304Z"
+    },
+    {
+      "scenarioId": "local-fd72b1e7345661eb",
+      "scenarioName": "WhisphereRawControl",
+      "timestamp": "2026-10-05T03:51:36.752Z",
+      "score": 9480,
+      "startedAt": "2026-10-05T03:50:37.285Z"
+    },
+    {
+      "scenarioId": "local-fd72b1e7345661eb",
+      "scenarioName": "WhisphereRawControl",
+      "timestamp": "2026-10-05T03:54:25.582Z",
+      "score": 9867,
+      "startedAt": "2026-10-05T03:53:26.124Z"
+    },
+    {
+      "scenarioId": "local-fd72b1e7345661eb",
+      "scenarioName": "WhisphereRawControl",
+      "timestamp": "2026-10-05T03:55:32.066Z",
+      "score": 9723,
+      "startedAt": "2026-10-05T03:54:32.615Z"
+    },
+    {
+      "scenarioId": "42",
+      "scenarioName": "Air Angelic 4 Voltaic Easy",
+      "timestamp": "2026-10-05T03:57:15.242Z",
+      "score": 3532,
+      "startedAt": "2026-10-05T03:56:15.714Z"
+    },
+    {
+      "scenarioId": "42",
+      "scenarioName": "Air Angelic 4 Voltaic Easy",
+      "timestamp": "2026-10-05T03:58:24.637Z",
+      "score": 3305,
+      "startedAt": "2026-10-05T03:57:25.187Z"
+    },
+    {
+      "scenarioId": "128696",
+      "scenarioName": "WhisphereRawControl Larger + Slowed",
+      "timestamp": "2026-10-05T03:59:43.253Z",
+      "score": 14076,
+      "startedAt": "2026-10-05T03:58:43.785Z"
+    },
+    {
+      "scenarioId": "13681",
+      "scenarioName": "Air Angelic 4 Voltaic Easy 80% (Good Version)",
+      "timestamp": "2026-10-05T04:02:38.536Z",
+      "score": 3591,
+      "startedAt": "2026-10-05T04:01:39.037Z"
+    },
+    {
+      "scenarioId": "13681",
+      "scenarioName": "Air Angelic 4 Voltaic Easy 80% (Good Version)",
+      "timestamp": "2026-10-05T04:03:45.310Z",
+      "score": 3752,
+      "startedAt": "2026-10-05T04:02:45.669Z"
     }
   ],
+  "errors": [],
   "possibleGaps": [
     {
       "scenarioName": "Whisphere",

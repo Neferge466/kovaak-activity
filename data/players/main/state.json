@@ -10,7 +10,7 @@
   },
   "trackingSince": "2026-09-29T06:23:06.681Z",
   "latest": {
-    "capturedAt": "2026-10-05T02:03:08.962Z",
+    "capturedAt": "2026-10-05T08:50:43.218Z",
     "steamId": "76561199196193444",
     "timezone": "Asia/Shanghai",
     "totalPlays": 526,
@@ -447,9 +447,37 @@
       "runs": 0,
       "date": "2026-10-05",
       "scenarios": []
+    },
+    {
+      "start": "2026-10-05T02:03:08.962Z",
+      "end": "2026-10-05T08:50:43.218Z",
+      "startDate": "2026-10-05",
+      "endDate": "2026-10-05",
+      "status": "assigned",
+      "runs": 0,
+      "date": "2026-10-05",
+      "scenarios": []
     }
   ],
   "pbEvents": [
+    {
+      "timestamp": "2026-10-05T03:59:43.253Z",
+      "scenarioName": "WhisphereRawControl Larger + Slowed",
+      "scenarioId": "128696",
+      "score": 14076
+    },
+    {
+      "timestamp": "2026-10-05T03:57:15.243Z",
+      "scenarioName": "Air Angelic 4 Voltaic Easy",
+      "scenarioId": "42",
+      "score": 3532
+    },
+    {
+      "timestamp": "2026-10-05T03:31:51.584Z",
+      "scenarioName": "Centering 90 Easy No Strafes",
+      "scenarioId": "5599",
+      "score": 18594
+    },
     {
       "timestamp": "2026-10-02T04:15:15.838Z",
       "scenarioName": "Air Angelic 4 Voltaic Easy",
