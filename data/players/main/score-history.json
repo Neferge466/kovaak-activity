@@ -4,7 +4,7 @@
   "timezone": "Asia/Shanghai",
   "source": "kovaak-last-scores-by-name",
   "coverage": "partial",
-  "fetchedAt": "2026-10-05T23:15:03.408Z",
+  "fetchedAt": "2026-10-06T02:58:24.870Z",
   "records": [
     {
       "scenarioId": "16",
@@ -7245,7 +7245,16 @@
       "startedAt": "2026-10-05T04:02:45.669Z"
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "scenarioName": "FloatTS Angelic Easy",
+      "error": "user/scenario/last-scores/by-name: HTTP 429"
+    },
+    {
+      "scenarioName": "1w2ts Pasu Perfected",
+      "error": "user/scenario/last-scores/by-name: HTTP 429"
+    }
+  ],
   "possibleGaps": [
     {
       "scenarioName": "Whisphere",
