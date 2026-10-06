@@ -4,7 +4,7 @@
   "timezone": "Asia/Shanghai",
   "source": "kovaak-last-scores-by-name",
   "coverage": "partial",
-  "fetchedAt": "2026-10-06T02:58:24.870Z",
+  "fetchedAt": "2026-10-06T09:43:01.425Z",
   "records": [
     {
       "scenarioId": "16",
@@ -7243,18 +7243,142 @@
       "timestamp": "2026-10-05T04:03:45.310Z",
       "score": 3752,
       "startedAt": "2026-10-05T04:02:45.669Z"
-    }
-  ],
-  "errors": [
-    {
-      "scenarioName": "FloatTS Angelic Easy",
-      "error": "user/scenario/last-scores/by-name: HTTP 429"
     },
     {
-      "scenarioName": "1w2ts Pasu Perfected",
-      "error": "user/scenario/last-scores/by-name: HTTP 429"
+      "scenarioId": "local-fd72b1e7345661eb",
+      "scenarioName": "WhisphereRawControl",
+      "timestamp": "2026-10-06T03:05:02.099Z",
+      "score": 9171,
+      "startedAt": "2026-10-06T03:04:02.553Z"
+    },
+    {
+      "scenarioId": "local-fd72b1e7345661eb",
+      "scenarioName": "WhisphereRawControl",
+      "timestamp": "2026-10-06T03:07:03.081Z",
+      "score": 9363,
+      "startedAt": "2026-10-06T03:06:03.541Z"
+    },
+    {
+      "scenarioId": "local-fd72b1e7345661eb",
+      "scenarioName": "WhisphereRawControl",
+      "timestamp": "2026-10-06T03:09:20.916Z",
+      "score": 9921,
+      "startedAt": "2026-10-06T03:08:21.354Z"
+    },
+    {
+      "scenarioId": "local-fd72b1e7345661eb",
+      "scenarioName": "WhisphereRawControl",
+      "timestamp": "2026-10-06T03:10:57.251Z",
+      "score": 9909,
+      "startedAt": "2026-10-06T03:09:57.722Z"
+    },
+    {
+      "scenarioId": "local-fd72b1e7345661eb",
+      "scenarioName": "WhisphereRawControl",
+      "timestamp": "2026-10-06T03:14:09.536Z",
+      "score": 9540,
+      "startedAt": "2026-10-06T03:13:09.969Z"
+    },
+    {
+      "scenarioId": "local-fd72b1e7345661eb",
+      "scenarioName": "WhisphereRawControl",
+      "timestamp": "2026-10-06T03:15:15.415Z",
+      "score": 9909,
+      "startedAt": "2026-10-06T03:14:15.884Z"
+    },
+    {
+      "scenarioId": "local-fd72b1e7345661eb",
+      "scenarioName": "WhisphereRawControl",
+      "timestamp": "2026-10-06T03:17:13.172Z",
+      "score": 9657,
+      "startedAt": "2026-10-06T03:16:13.532Z"
+    },
+    {
+      "scenarioId": "local-fd72b1e7345661eb",
+      "scenarioName": "WhisphereRawControl",
+      "timestamp": "2026-10-06T03:18:22.311Z",
+      "score": 8937,
+      "startedAt": "2026-10-06T03:17:22.606Z"
+    },
+    {
+      "scenarioId": "local-fd72b1e7345661eb",
+      "scenarioName": "WhisphereRawControl",
+      "timestamp": "2026-10-06T03:19:26.513Z",
+      "score": 9636,
+      "startedAt": "2026-10-06T03:18:26.956Z"
+    },
+    {
+      "scenarioId": "local-fd72b1e7345661eb",
+      "scenarioName": "WhisphereRawControl",
+      "timestamp": "2026-10-06T03:20:54.813Z",
+      "score": 9534,
+      "startedAt": "2026-10-06T03:19:55.249Z"
+    },
+    {
+      "scenarioId": "42",
+      "scenarioName": "Air Angelic 4 Voltaic Easy",
+      "timestamp": "2026-10-06T03:22:12.758Z",
+      "score": 3261,
+      "startedAt": "2026-10-06T03:21:13.132Z"
+    },
+    {
+      "scenarioId": "42",
+      "scenarioName": "Air Angelic 4 Voltaic Easy",
+      "timestamp": "2026-10-06T03:23:50.546Z",
+      "score": 3124,
+      "startedAt": "2026-10-06T03:22:51.022Z"
+    },
+    {
+      "scenarioId": "42",
+      "scenarioName": "Air Angelic 4 Voltaic Easy",
+      "timestamp": "2026-10-06T03:25:02.925Z",
+      "score": 3268,
+      "startedAt": "2026-10-06T03:24:03.392Z"
+    },
+    {
+      "scenarioId": "42",
+      "scenarioName": "Air Angelic 4 Voltaic Easy",
+      "timestamp": "2026-10-06T03:27:48.792Z",
+      "score": 3374,
+      "startedAt": "2026-10-06T03:26:49.264Z"
+    },
+    {
+      "scenarioId": "42",
+      "scenarioName": "Air Angelic 4 Voltaic Easy",
+      "timestamp": "2026-10-06T03:28:58.678Z",
+      "score": 3271,
+      "startedAt": "2026-10-06T03:27:59.187Z"
+    },
+    {
+      "scenarioId": "42",
+      "scenarioName": "Air Angelic 4 Voltaic Easy",
+      "timestamp": "2026-10-06T03:31:48.809Z",
+      "score": 3268,
+      "startedAt": "2026-10-06T03:30:49.338Z"
+    },
+    {
+      "scenarioId": "42",
+      "scenarioName": "Air Angelic 4 Voltaic Easy",
+      "timestamp": "2026-10-06T03:32:53.148Z",
+      "score": 3034,
+      "startedAt": "2026-10-06T03:31:53.671Z"
+    },
+    {
+      "scenarioId": "13681",
+      "scenarioName": "Air Angelic 4 Voltaic Easy 80% (Good Version)",
+      "timestamp": "2026-10-06T03:36:41.122Z",
+      "score": 3726,
+      "startedAt": "2026-10-06T03:35:41.662Z"
+    },
+    {
+      "scenarioId": "42",
+      "scenarioName": "Air Angelic 4 Voltaic Easy",
+      "timestamp": "2026-10-06T03:38:07.098Z",
+      "score": 3243,
+      "startedAt": "2026-10-06T03:37:07.529Z"
     }
   ],
+  "errors": [],
   "possibleGaps": [
     {
       "scenarioName": "Whisphere",
@@ -7267,6 +7391,10 @@
     {
       "scenarioName": "WhisphereRawControl",
       "detectedAt": "2026-10-04T07:23:28.529Z"
+    },
+    {
+      "scenarioName": "WhisphereRawControl",
+      "detectedAt": "2026-10-06T09:43:01.425Z"
     }
   ]
 }
