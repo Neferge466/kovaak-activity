@@ -4,7 +4,7 @@
   "timezone": "Asia/Shanghai",
   "source": "kovaak-last-scores-by-name",
   "coverage": "partial",
-  "fetchedAt": "2026-10-09T07:38:10.070Z",
+  "fetchedAt": "2026-10-09T14:37:41.623Z",
   "records": [
     {
       "scenarioId": "16",
@@ -7441,7 +7441,20 @@
       "startedAt": "2026-10-07T01:27:07.774Z"
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "scenarioName": "Definitely Jumppads apex",
+      "error": "user/scenario/last-scores/by-name: HTTP 429"
+    },
+    {
+      "scenarioName": "VT Bounceshot Intermediate",
+      "error": "user/scenario/last-scores/by-name: HTTP 429"
+    },
+    {
+      "scenarioName": "Popcorn MV Intermediate",
+      "error": "user/scenario/last-scores/by-name: HTTP 429"
+    }
+  ],
   "possibleGaps": [
     {
       "scenarioName": "Whisphere",
