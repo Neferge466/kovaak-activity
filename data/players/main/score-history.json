@@ -4,7 +4,7 @@
   "timezone": "Asia/Shanghai",
   "source": "kovaak-last-scores-by-name",
   "coverage": "partial",
-  "fetchedAt": "2026-10-15T21:33:44.167Z",
+  "fetchedAt": "2026-10-15T23:47:17.403Z",
   "records": [
     {
       "scenarioId": "16",
@@ -7441,16 +7441,7 @@
       "startedAt": "2026-10-07T01:27:07.774Z"
     }
   ],
-  "errors": [
-    {
-      "scenarioName": "Centering I 180 no strafes",
-      "error": "user/scenario/last-scores/by-name: HTTP 429"
-    },
-    {
-      "scenarioName": "Air Angelic invincible 8 Easy",
-      "error": "user/scenario/last-scores/by-name: HTTP 429"
-    }
-  ],
+  "errors": [],
   "possibleGaps": [
     {
       "scenarioName": "Whisphere",
