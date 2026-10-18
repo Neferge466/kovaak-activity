@@ -4,7 +4,7 @@
   "timezone": "Asia/Shanghai",
   "source": "kovaak-last-scores-by-name",
   "coverage": "partial",
-  "fetchedAt": "2026-10-18T14:01:09.073Z",
+  "fetchedAt": "2026-10-18T17:15:01.993Z",
   "records": [
     {
       "scenarioId": "16",
@@ -7441,7 +7441,16 @@
       "startedAt": "2026-10-07T01:27:07.774Z"
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "scenarioName": "waldoTS Intermediate",
+      "error": "user/scenario/last-scores/by-name: HTTP 429"
+    },
+    {
+      "scenarioName": "VT Controlsphere Entry S5 Precision Focus+",
+      "error": "user/scenario/last-scores/by-name: HTTP 429"
+    }
+  ],
   "possibleGaps": [
     {
       "scenarioName": "Whisphere",
