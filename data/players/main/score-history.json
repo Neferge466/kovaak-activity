@@ -4,7 +4,7 @@
   "timezone": "Asia/Shanghai",
   "source": "kovaak-last-scores-by-name",
   "coverage": "partial",
-  "fetchedAt": "2026-10-20T01:41:20.090Z",
+  "fetchedAt": "2026-10-20T06:37:29.293Z",
   "records": [
     {
       "scenarioId": "16",
@@ -7441,7 +7441,16 @@
       "startedAt": "2026-10-07T01:27:07.774Z"
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "scenarioName": "Definitely Jumppads apex",
+      "error": "user/scenario/last-scores/by-name: HTTP 429"
+    },
+    {
+      "scenarioName": "Controlsphere Click",
+      "error": "user/scenario/last-scores/by-name: HTTP 429"
+    }
+  ],
   "possibleGaps": [
     {
       "scenarioName": "Whisphere",
