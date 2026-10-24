@@ -4,7 +4,7 @@
   "timezone": "Asia/Shanghai",
   "source": "kovaak-last-scores-by-name",
   "coverage": "partial",
-  "fetchedAt": "2026-10-24T11:18:20.587Z",
+  "fetchedAt": "2026-10-24T14:36:29.000Z",
   "records": [
     {
       "scenarioId": "16",
@@ -7441,16 +7441,7 @@
       "startedAt": "2026-10-07T01:27:07.774Z"
     }
   ],
-  "errors": [
-    {
-      "scenarioName": "Air Angelic invincible 8 Easy",
-      "error": "user/scenario/last-scores/by-name: HTTP 429"
-    },
-    {
-      "scenarioName": "1w2ts Pasu Perfected",
-      "error": "user/scenario/last-scores/by-name: HTTP 429"
-    }
-  ],
+  "errors": [],
   "possibleGaps": [
     {
       "scenarioName": "Whisphere",
