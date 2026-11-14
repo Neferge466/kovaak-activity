@@ -4,7 +4,7 @@
   "timezone": "Asia/Shanghai",
   "source": "kovaak-last-scores-by-name",
   "coverage": "partial",
-  "fetchedAt": "2026-11-14T14:56:45.181Z",
+  "fetchedAt": "2026-11-14T19:36:26.931Z",
   "records": [
     {
       "scenarioId": "16",
@@ -7439,6 +7439,76 @@
       "timestamp": "2026-10-07T01:28:06.821Z",
       "score": 3209,
       "startedAt": "2026-10-07T01:27:07.774Z"
+    },
+    {
+      "scenarioId": "42",
+      "scenarioName": "Air Angelic 4 Voltaic Easy",
+      "timestamp": "2026-11-14T15:51:13.970Z",
+      "score": 2641,
+      "startedAt": "2026-11-14T15:50:12.953Z"
+    },
+    {
+      "scenarioId": "42",
+      "scenarioName": "Air Angelic 4 Voltaic Easy",
+      "timestamp": "2026-11-14T15:52:39.324Z",
+      "score": 2834,
+      "startedAt": "2026-11-14T15:51:39.982Z"
+    },
+    {
+      "scenarioId": "local-57cb8bcd23d8c5dd",
+      "scenarioName": "1w3ts Pasu Perfected Micro Goated Larger",
+      "timestamp": "2026-11-14T15:54:07.416Z",
+      "score": 884,
+      "startedAt": "2026-11-14T15:53:08.087Z"
+    },
+    {
+      "scenarioId": "local-57cb8bcd23d8c5dd",
+      "scenarioName": "1w3ts Pasu Perfected Micro Goated Larger",
+      "timestamp": "2026-11-14T15:55:11.982Z",
+      "score": 984,
+      "startedAt": "2026-11-14T15:54:12.659Z"
+    },
+    {
+      "scenarioId": "local-cf08f512b0b14aa7",
+      "scenarioName": "Floating Heads Timing 400% Larger",
+      "timestamp": "2026-11-14T15:56:32.683Z",
+      "score": 2916,
+      "startedAt": "2026-11-14T15:55:33.350Z"
+    },
+    {
+      "scenarioId": "local-550327865f0254aa",
+      "scenarioName": "Pasu Angelic 20% Larger",
+      "timestamp": "2026-11-14T15:59:28.364Z",
+      "score": 66,
+      "startedAt": "2026-11-14T15:58:29.049Z"
+    },
+    {
+      "scenarioId": "local-550327865f0254aa",
+      "scenarioName": "Pasu Angelic 20% Larger",
+      "timestamp": "2026-11-14T16:01:06.652Z",
+      "score": 77,
+      "startedAt": "2026-11-14T16:00:07.321Z"
+    },
+    {
+      "scenarioId": "local-bb00082e7211e9f1",
+      "scenarioName": "1w2ts Pasu Perfected",
+      "timestamp": "2026-11-14T16:02:47.475Z",
+      "score": 65,
+      "startedAt": "2026-11-14T16:01:47.423Z"
+    },
+    {
+      "scenarioId": "local-bb00082e7211e9f1",
+      "scenarioName": "1w2ts Pasu Perfected",
+      "timestamp": "2026-11-14T16:03:48.645Z",
+      "score": 69,
+      "startedAt": "2026-11-14T16:02:49.267Z"
+    },
+    {
+      "scenarioId": "local-37dd3d6ca9817f72",
+      "scenarioName": "FloatTS Angelic Easy",
+      "timestamp": "2026-11-14T16:05:58.997Z",
+      "score": 96.1,
+      "startedAt": "2026-11-14T16:04:59.685Z"
     }
   ],
   "errors": [],
